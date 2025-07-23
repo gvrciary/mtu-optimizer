@@ -1,16 +1,16 @@
-# MTU Checker 🚀
+# MTU Checker
 
 A basic **MTU Checker** developed in Rust that discovers the optimal MTU (Maximum Transmission Unit) size for your network connection through ping latency tests to a target host.
 
-- 🎯 **Automatic optimal MTU discovery** based on lowest average latency
-- ⚡ **Concurrent testing** for faster results
-- 📊 **Detailed statistics** including packet loss, latency ranges and success rates
-- 🔧 **Highly configurable** with complete CLI options
-- 🛡️ **Robust error handling** with detailed error messages
-- 📈 **Visual progress bar** during testing
-- 🔄 **Graceful signal handling** for interruption
+- **Automatic optimal MTU discovery** based on lowest average latency
+- **Concurrent testing** for faster results
+- **Detailed statistics** including packet loss, latency ranges and success rates
+- **Highly configurable** with complete CLI options
+- **Robust error handling** with detailed error messages
+- **Visual progress bar** during testing
+- **Graceful signal handling** for interruption
 
-## 📖 Usage
+## Usage
 
 ### Basic Usage
 
@@ -48,7 +48,7 @@ mtu-checker --requests 3 --timeout-ms 1000 --step 50
 mtu-checker --skip-connectivity-test
 ```
 
-## ⚙️ Configuration Options
+## Configuration Options
 
 | Option | Description | Default value |
 |--------|-------------|---------------|
@@ -65,7 +65,7 @@ mtu-checker --skip-connectivity-test
 | `--skip-connectivity-test` | Skip initial connectivity test | `false` |
 | `--max-concurrent` | Maximum concurrent operations | `10` |
 
-## 🔍 Result Interpretation
+## Result Interpretation
 
 ### Status Symbols
 - **●** (green): Successful ping
@@ -77,6 +77,6 @@ mtu-checker --skip-connectivity-test
 2. **High success rate** (>90% recommended)
 3. **Largest MTU size** in case of latency tie
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
