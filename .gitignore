@@ -1,0 +1,15 @@
+build/
+
+*.test
+*.out
+
+.vscode/
+.idea/
+.DS_Store
+
+*.tmp
+*.log
+*.exe
+*.dll
+*.so
+*.dylib
