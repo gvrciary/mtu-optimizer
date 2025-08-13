@@ -1,4 +1,6 @@
-# What is MTU Optimizer?
+# MTU Optimizer
+
+![Go](https://img.shields.io/badge/Go-111111?style=for-the-badge&logo=go&logoColor=00ADD8)
 
 A command-line tool that finds the optimal MTU (Maximum Transmission Unit) size for your network connection by testing different values and analyzing latency, jitter, and packet loss.
 
